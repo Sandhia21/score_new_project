@@ -1222,18 +1222,18 @@
     // preloader
     // --------------------------------------------------
 
-    if(preloader=="on"){
-        jQuery('body').jpreLoader({
-            splashID: "#jSplash",
-            splashFunction: function () {  //passing Splash Screen script to jPreLoader
-                jQuery('#jSplash').children('section').not('.selected').hide();
-                jQuery('#jSplash').hide().fadeIn(800);
-                init_de();
-            }
-        }, function () {    //jPreLoader callback function
-            clearInterval();
-        });
-    }
+    // if(preloader=="on"){
+    //     jQuery('body').jpreLoader({
+    //         splashID: "#jSplash",
+    //         splashFunction: function () {  //passing Splash Screen script to jPreLoader
+    //             jQuery('#jSplash').children('section').not('.selected').hide();
+    //             jQuery('#jSplash').hide().fadeIn(800);
+    //             init_de();
+    //         }
+    //     }, function () {    //jPreLoader callback function
+    //         clearInterval();
+    //     });
+    // }
 
 
 
