@@ -22,3 +22,7 @@
     background-color: var(--primary-color) !important;
     color: #fff;
 }
+
+.padding-top-90{
+    padding: 90px;
+}

@@ -5450,7 +5450,7 @@ a.btn-left, a.btn-right {
 	border:none;
 	color: #606060;
 	font-weight:300;
-	padding:30px 40px 30px 40px;
+	/* padding:30px 40px 30px 40px; */
 	background:#F2F6FE;
 	border-radius:5px;
 	-moz-border-radius:5px;
@@ -5476,9 +5476,9 @@ a.btn-left, a.btn-right {
 	font-size: 36px;
 }
 
-.de_testi.opt-2.review blockquote{
+/* .de_testi.opt-2.review blockquote{
 	padding:50px;
-}
+} */
 
 .de_testi.opt-2.review blockquote:before{
 	display: none;	
