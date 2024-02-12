@@ -884,7 +884,7 @@ header.header-mobile.header-light #menu-btn {
 /* ================================================== */
 
 section {
-	padding: 90px 0 90px 0;
+	/* padding: 90px 0 0 0; */
 	position: relative;
 }
 section:not(.relative){
@@ -7339,9 +7339,6 @@ a.img-icon-zoom {
 
 .grid {
   width:100%;
-}
-
-	margin:5px;
 }
 
 /* clear fix */
