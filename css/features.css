@@ -1,0 +1,11 @@
+
+    /* Add padding to the sections */
+    section {
+        padding: 60px 0; /* Adjust the values as needed */
+    }
+
+    /* Add some space between the columns within a section */
+    .container .row {
+        margin-bottom: 30px; /* Adjust the value as needed */
+    }
+
