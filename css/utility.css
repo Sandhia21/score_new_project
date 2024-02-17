@@ -34,3 +34,15 @@ padding-top-0{
     padding-top: 0px !important;
     padding-bottom: 0px !important;
 }
+
+.btn-red{
+    padding: 10px 8px;
+    background: var(--primary-color);
+    color: #fff;
+}
+
+.btn-red:hover{
+    background: rgba(175, 41, 36,0.7);
+    /* transform: scale(0.02); */
+    color: #fff;
+}
