@@ -1,6 +1,9 @@
 .white-text{
     color: #fff !important;
 }
+.bg-white{
+    background-color: #fff !important;
+}
 
 .primary-color{
     color: #AF2924;
