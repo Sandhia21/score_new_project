@@ -110,7 +110,9 @@
                           <a href="companies.html">Companies</a>
                         </li>
                         <li>
-                          <a href="companies.html">Companies</a>
+                          <a href="structured-finance.html"
+                            >Structured Finance</a
+                          >
                         </li>
                       </ul>
                     </li>
@@ -178,6 +180,7 @@
           </div>
         </div>
       </header>
+
       <!-- header close -->
 
       <!-- content begin -->
@@ -185,21 +188,24 @@
         <div id="top"></div>
 
         <section
-          id="subheader"
-          class="text-light"
-          data-bgimage="url(images/sector/subheader4.jpg) top"
+          aria-label="section"
+          class="no-top no-bottom opacity-dark"
+          data-bgimage="url(images/more/16.jpg) center"
+          style="height: 80vh"
         >
-          <div class="center-y relative text-center">
+          <div class="v-center">
             <div class="container">
-              <div class="row">
-                <div class="col-md-12 text-center">
-                  <h1>Solutions & Services</h1>
-                  <p>
+              <div class="row justify-content-center align-items-center">
+                <div class="col-lg-6 wow fadeInRight" data-wow-delay=".5s">
+                  <div class="h1 white-text text-center">
+                    Solutions & Services
+                  </div>
+                  <p class="lead white-text text-center">
                     Explore our innovative solutions and services, tailored for
                     your success.
                   </p>
+                  <div class="spacer-20"></div>
                 </div>
-                <div class="clearfix"></div>
               </div>
             </div>
           </div>
@@ -224,17 +230,12 @@
                     Additional content goes here. You can customize this part
                     based on your needs.
                   </p>
-                  <button
-                    id="read-more-btn"
-                    onclick="openNewPage1()"
-                    style="
-                      background-color: #af2924;
-                      color: #ffffff;
-                      border: none;
-                    "
+                  <a
+                    href="rating.html"
+                    class="btn btn-red"
+                    style="margin-bottom: 10px"
+                    >Read More</a
                   >
-                    Read More
-                  </button>
                 </div>
 
                 <div class="col-md-6 offset-md-1">
@@ -288,17 +289,12 @@
                     with actionable insights to navigate evolving economic
                     landscapes and capitalize on emerging opportunities.
                   </p>
-                  <button
-                    id="read-more-btn"
-                    onclick="openNewPage2()"
-                    style="
-                      background-color: #af2924;
-                      color: #ffffff;
-                      border: none;
-                    "
+                  <a
+                    href="economic-research.html"
+                    class="btn btn-red"
+                    style="margin-bottom: 10px"
+                    >Read More</a
                   >
-                    Read More
-                  </button>
                 </div>
 
                 <div class="col-md-6 offset-md-1">
@@ -352,17 +348,12 @@
                     effectively. Our expertise enables clients to optimize
                     underwriting processes and enhance risk-adjusted returns.
                   </p>
-                  <button
-                    id="read-more-btn"
-                    onclick="openNewPage()"
-                    style="
-                      background-color: #af2924;
-                      color: #ffffff;
-                      border: none;
-                    "
+                  <a
+                    href="underwriting-main.html"
+                    class="btn btn-red"
+                    style="margin-bottom: 10px"
+                    >Read More</a
                   >
-                    Read More
-                  </button>
                 </div>
 
                 <div class="col-md-6 offset-md-1">
@@ -420,7 +411,7 @@
                 <h5>About</h5>
                 <ul>
                   <li><a href="about.html">Company overview</a></li>
-                  <li><a href="why-choose-us.html">Investor relation</a></li>
+                  <li><a href="careers.html">Investor relation</a></li>
                   <!-- <li><a href="jobs.html">Careers</a></li> -->
                   <!-- <li><a href="contact.html">Contact Us</a></li>
               <li><a href="contact.html">News</a></li> -->
@@ -573,16 +564,6 @@
           },
         });
       });
-
-      function openNewPage() {
-        window.open("underwriting-main.html", "_blank");
-      }
-      function openNewPage1() {
-        window.open("rating.html", "_blank");
-      }
-      function openNewPage2() {
-        window.open("economic-research.html", "_blank");
-      }
     </script>
   </body>
 </html>
