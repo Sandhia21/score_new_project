@@ -10478,7 +10478,9 @@ a, img {
 
 
 /* ================================================== */
-	
+.image-size{
+	height: 75vh;
+}	
 @media (min-width: 1400px){
     .container, .container-lg, .container-md, .container-sm, .container-xl {
         max-width: 1240px;
@@ -10506,6 +10508,17 @@ a, img {
 }
 @media only screen and (max-width: 992px) {	
 	
+	.image-size{
+		height: 60vh;
+	}
+	.image-size-long{
+		height: 68vh;
+	}
+	.set-center-content{
+		position: absolute;
+		top: 20%;
+		left: 0px;
+	}
 	.col-right{
 	position:absolute;
 	top:-82px;
@@ -11239,6 +11252,10 @@ a, img {
 	.timeline-pic{
 		height:300px;
 	}
+	.image-size{
+		height: 40vh !important; 
+	}
+	
 }
 
 /* -------------------------------------------------- 
