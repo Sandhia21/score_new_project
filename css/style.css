@@ -11132,6 +11132,15 @@ a, img {
 	.countdown-amount {
 		font-size: 36px;
 	}
+	.header-light .container {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.custom-btn-styles .btn-custom {
+		display: block !important;
+		margin-top: 20px !important;
+		width: 60%;
+	}
 	.container {
 		padding-left: 30px;
 		padding-right: 70px;
